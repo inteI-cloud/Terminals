@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 
 MAINTAINER Terminals
 LABEL Description="This image used for testing Ssh connections authenticated using certificates. Allows admin connections, exposed default ssh port 22." \
